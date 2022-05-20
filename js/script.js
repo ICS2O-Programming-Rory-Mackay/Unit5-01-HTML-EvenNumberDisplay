@@ -18,13 +18,13 @@ function displayNumber () {
   let numbers = ""
 	
 	// get user input for min
-	let numMin = parseInt(document.getElementById('Min').value)
+	let numMin = parseInt(document.getElementById('min').value)
 
 	// get user input for max
-	let numMax = parseInt(document.getElementById('Max').value)
+	let numMax = parseInt(document.getElementById('max').value)
 
 	// WHILE loop
-	while (counter >= maxNum) {
+	while ((counter >= min) && (counter <= max)) {
     // make number string with comma's
     numbers = numbers + counter + ", "
     // increment the counter
