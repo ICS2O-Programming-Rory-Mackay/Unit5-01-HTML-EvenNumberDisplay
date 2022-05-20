@@ -28,7 +28,7 @@ function displayNumber () {
     // make number string with comma's
     numbers = numbers + counter + ", "
     // increment the counter
-    counter = counter +1
+    counter = counter++
   }
   // display sequence back to user
 	document.getElementById("message").innerHTML = numbers
